@@ -1,53 +1,68 @@
 ---
-layout: post 
-title: Portfolio Home 
+layout: base
+title: I'm Krish Kelageri
 hide: true
-show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+### Me and Team
+
+Hi! My name is Krish Kelageri.
+
+| Role         | Name     | Repo Location                       | Stream                | Repo Name |
+|--------------|----------|-------------------------------------|-----------------------|-----------|
+| Scrum Master | John     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
+| Scrummer     | Krish    | github.com/TheCoder203/student      | downstream (fork)     | student   |
+| Scrummer     | Vihaan   | github.com/veen456/student          | downstream (fork)     | student   |
+| Scrummer     | Pranay   | github.com/pkdev0101/student        | downstream (fork)     | student   |
+
+
+## Links to Learning
 
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://opencodingsociety.com" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FA8072; border-radius: 6px; font-weight: 700;">
-        <img src="{{ '/favicon.ico' | relative_url }}" alt="OCS logo" style="width: 16px; height: 16px;">
-        OCS
-    </a>
-    <a href="https://github.com/Open-Coding-Society/portfolio" style=" text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FFF; border-radius: 6px; font-weight: 700;">
-        <img src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub logo" style="width: 16px; height: 16px;">
-        GitHub
-    </a>
-    <a href="https://vscode.dev/" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #007ACC; border-radius: 6px; font-weight: 700;">
-        <img src="https://vscode.dev/favicon.ico" alt="VSCode logo" style="width: 16px; height: 16px;">
-        VSCode.dev
-    </a>
-</div>
+<a href="https://github.com/Open-Coding-Society/student">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://open-coding-society.github.io/student">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?logo=github&logoColor=white" alt="GitHub Pages">
+</a>
+<a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3;">
+    KASM
+</a>
+<a href="https://vscode.dev/" class="button small" style="background-color: #d38a4b;">
+    VSCODE
+</a>
 
 <br>
 
 ### Class Progress
 
-> Here is my progress through coding, click to see these online
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
-        <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Snake
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/gamify/parallax" style="text-decoration: none;">
-        <div style="background-color: #3c1de8; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-           Fish
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/gamify/water" style="text-decoration: none;">
-        <div style="background-color: #b71dc5; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-           Squid
-        </div>
-    </a>
-</div>
+<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3;">
+    Snake Game
+</a>
+<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1;">
+    Turtle
+</a>
+<a href="{{site.baseurl}}/allhw" class="button small" style="background-color: #e10b0b;">
+    Lesson Homeworks
+</a>
+<a href="{{site.baseurl}}/N@TMBlog" class="button small" style="background-color: #0d1eb3;">
+    N@TM Blog
+</a>
+<a href="{{site.baseurl}}/about" class="button small" style="background-color: #83c538;">
+    About Me
+</a>
+<a href="{{site.baseurl}}/accompblog" class="button small" style="background-color: #E10BCC;">
+    Accomplishment Blog
+</a>
 
 <br>
+
+<!-- Contact Section -->
+### Get in Touch
+
+> Feel free to reach out if you'd like to collaborate or learn more about our work.
+
+<p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
